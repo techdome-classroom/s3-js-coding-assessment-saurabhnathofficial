@@ -11,7 +11,7 @@ var romanToInt = function(s) {
         'C' : 10,
         'D' : 10,
         'M' : 10,
-        'X' : 10,
+        
 
     }
 };
