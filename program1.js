@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+var isValid = function (s) {
     // const stack = [];
     // const map = {
     //     '(':')',
@@ -21,13 +21,15 @@ var isValid = function(s) {
     // }
     // return stack.length === 0;
 
-    if(s.length % 2 !== 0){
+    if (s.length % 2 !== 0) {
         return false;
     }
     const stack = [];
 
     const matchingBrackets = {
-        ')'
+        '(': ')',
+        '{': '}',
+        '[': ']'
     }
 };
 
