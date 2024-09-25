@@ -34,7 +34,8 @@ var isValid = function (s) {
 
     for(let char of s){
         if(matchingBrackets[char]){
-            const topElement = stack.length?stack.pop():'#'
+            const topElement = stack.length?stack.pop():'#';
+            
         }
     }
 };
