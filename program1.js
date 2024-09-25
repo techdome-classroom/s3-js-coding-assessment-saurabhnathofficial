@@ -42,6 +42,7 @@ var isValid = function (s) {
             stack.push(char);
         }
     }
+    
 };
 
 module.exports = { isValid };
