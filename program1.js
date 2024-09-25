@@ -28,8 +28,8 @@ var isValid = function (s) {
 
     const matchingBrackets = {
         ')': '(',
-        '}': '}',
-        '[': ']'
+        '}': '{',
+        ']': '['
     }
 };
 
