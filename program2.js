@@ -15,7 +15,8 @@ var romanToInt = function(s) {
     let total = 0;
 
     for(let i = 0; i < s.length; i++){
-        const currentVal = romanMap[s[i]]
+        const currentVal = romanMap[s[i]];
+        const nextVal = romanMap[s[]]
     }
 };
 
