@@ -25,7 +25,10 @@ var isValid = function(s) {
         return false;
     }
     const stack = [];
-    
+
+    const matchingBrackets = {
+        
+    }
 };
 
 module.exports = { isValid };
