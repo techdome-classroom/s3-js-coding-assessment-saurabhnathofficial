@@ -13,7 +13,7 @@ var isValid = function(s) {
         if(s[i] === '(' || s[i] === '{' || s[i] === '['){
             stack.push(s[i]);
         }else{
-            
+            const last = stack.pop
         }
     }
 };
