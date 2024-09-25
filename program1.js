@@ -38,6 +38,8 @@ var isValid = function (s) {
             if(topElement !== matchingBrackets[char]){
                 return false;
             }
+        }else{
+            
         }
     }
 };
