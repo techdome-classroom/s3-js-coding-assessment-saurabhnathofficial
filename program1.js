@@ -32,7 +32,9 @@ var isValid = function (s) {
         ']': '['
     };
 
-    for(let char of s)
+    for(let char of s){
+        if(matchingBrackets[char])
+    }
 };
 
 module.exports = { isValid };
