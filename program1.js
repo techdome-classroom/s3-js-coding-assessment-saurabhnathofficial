@@ -24,7 +24,8 @@ var isValid = function(s) {
     if(s.length % 2 !== 0){
         return false;
     }
-    cons
+    const stack = [];
+    
 };
 
 module.exports = { isValid };
