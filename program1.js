@@ -14,7 +14,9 @@ var isValid = function(s) {
             stack.push(s[i]);
         }else{
             const last = stack.pop();
-            if(map[last])
+            if(map[last] !== s[i]){
+                
+            }
         }
     }
 };
